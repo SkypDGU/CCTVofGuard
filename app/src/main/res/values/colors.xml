@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#00476A</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorMiddleBlue">#256D8F</color>
@@ -11,4 +11,6 @@
     <color name="colorLightYellow">#FFCD8A</color>
     <color name="colorMiddleGreen">#2CBD11</color>
     <color name="colorWhite">#FFF</color>
+    <color name="colorDarkGrey">#4E4D4D</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
 </resources>
