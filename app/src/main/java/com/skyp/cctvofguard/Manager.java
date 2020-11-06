@@ -1,4 +1,4 @@
-package com.example.detection;
+package com.skyp.cctvofguard;
 import java.util.*;
 
 /**
