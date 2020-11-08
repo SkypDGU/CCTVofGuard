@@ -85,6 +85,8 @@
             android:textColor="@color/colorLightBlue"
             android:textSize="15dp"
             android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             app:backgroundTint="@color/colorDarkBlue"/>
         <com.google.android.material.button.MaterialButton
             android:id="@+id/login_sign_in_Button"
@@ -96,6 +98,8 @@
             android:textColor="@color/colorLightBlue"
             android:textSize="15dp"
             android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             app:backgroundTint="@color/colorDarkBlue"/>
     </LinearLayout>
 
