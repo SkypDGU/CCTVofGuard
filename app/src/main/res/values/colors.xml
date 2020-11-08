@@ -9,7 +9,8 @@
     <color name="colorLightRed">#EC7B7D</color>
     <color name="colorDarkRed">#C40048</color>
     <color name="colorLightYellow">#FFCD8A</color>
-    <color name="colorMiddleGreen">#2CBD11</color>
+    <color name="colorDarkYellow">#E8A521</color>
+    <color name="colorMiddleGreen">#238F0F</color>
     <color name="colorWhite">#FFF</color>
     <color name="colorDarkGrey">#4E4D4D</color>
     <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
