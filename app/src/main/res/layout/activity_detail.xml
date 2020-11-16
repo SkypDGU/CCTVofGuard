@@ -31,9 +31,51 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="vertical"
         android:layout_margin="20dp"
+        android:padding="20dp"
         android:background="@color/colorWhite"
         android:elevation="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CCTV"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_outline_grey"
+            android:hint="CCTV1"
+            android:textColorHint="@color/colorDarkGrey"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/cctv_view_design"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CCTV 위치"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_outline_grey"
+            android:hint="CCTV 위치"
+            android:textColorHint="@color/colorDarkGrey"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 
