@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private LinearLayoutManager layoutManager;
     private MainAdapter mainAdapter;
-    private ArrayList<String> temporaryArr;
+    private ArrayList<cctvData> temporaryArr;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setDisplayShowCustomEnabled(true);
         actionBar.setDisplayShowTitleEnabled(false);
 
+        /*RecyclerView 연결*/
         temporaryArr = new ArrayList<>();
         setList();
 
@@ -49,8 +50,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setList(){
-        temporaryArr.add("CCTV1");
-        temporaryArr.add("CCTV2");
-        temporaryArr.add("CCTV3");
+        cctvData cctv1 = new cctvData("CCTV1", "this is CCTV1");
+        cctvData cctv2 = new cctvData("CCTV2", "this is CCTV2");
+        cctvData cctv3 = new cctvData("CCTV3", "this is CCTV3");
+        temporaryArr.add(cctv1);
+        temporaryArr.add(cctv2);
+        temporaryArr.add(cctv3);
     }
 }
