@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ActionBar actionBar;
 
+    /*RecyclerView 관련 컴포넌트*/
     private RecyclerView recyclerView;
     private LinearLayoutManager layoutManager;
     private MainAdapter mainAdapter;
